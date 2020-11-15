@@ -350,6 +350,19 @@ nav {
   color: #222222;
 }
 
+.about-text-box p a {
+  font-size: larger;
+  font-weight: bolder;
+  background: linear-gradient(
+    to right,
+    rgba(249, 105, 14, 1) 0%,
+    rgba(102, 51, 153, 1) 100%
+  );
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Services */
 
 .skills {
