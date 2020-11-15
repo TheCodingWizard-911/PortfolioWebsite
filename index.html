@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganesh Gitte Portfolio</title>
+
+    <!-- Link To CSS file -->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <!-- Link to google font used -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link to font awesome icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css"
+      integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="nav-brand">
+            <a href="index.html">
+              <i class="fas fa-code fa-4x"></i>
+            </a>
+          </div>
+          <div class="burger-menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#landing-page">
+                <img
+                  src="images/pic.jpeg"
+                  alt="Ganesh Gitte"
+                  class="profile-pic nav-link"
+                />
+                <span class="caption nav-link">Ganesh Gitte</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="landing-page" class="landing-page">
+        <div class="container">
+          <div class="main-message">
+            <h2>Ganesh Gitte</h2>
+            <h3>Student at College of Engineering, Pune</h3>
+            <div class="intro-btn">
+              <div class="cta">
+                <a href="#contact" class="btn">Contact me</a>
+              </div>
+              <div class="cta">
+                <a href="#projects" class="btn">My Projects</a>
+              </div>
+            </div>
+            <div>
+              <a href="#about" class="scroll-down">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about-img">
+            <img src="images/pic.jpeg" alt="Ganesh Gitte" class="about-pic" />
+          </div>
+          <div class="about-text-box">
+            <h2>Hello</h2>
+            <p>
+              I am Ganesh, currently studying in third year CSE at College of
+              Engineering, Pune.
+            </p>
+            <p>
+              I like to work on projects from which I can learn something new or
+              improve my existing skills.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="title-heading">
+            <h2>Here are some of my skills</h2>
+          </div>
+          <div class="skill">
+            <h1>C</h1>
+            <h1>C++</h1>
+            <h1>Python</h1>
+            <h1>Java</h1>
+            <h1>Dart</h1>
+            <h1>Flutter</h1>
+            <h1>HTML</h1>
+            <h1>CSS</h1>
+            <h1>Javascript</h1>
+            <h1>React Native</h1>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <div class="title-heading">
+          <h2>PROJECTS</h2>
+          <p>These are some of my recent projects</p>
+        </div>
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="images/flappyBird.jpg" />
+          </div>
+          <div class="project-description">
+            <h2>AI learns to play <strong>Flappy Bird</strong></h2>
+            <p>
+              This is a mini project developed for educational purpose. I
+              created the game first with python pygame library and then added
+              AI to the project using neat-python module. Classic game played by
+              modern artificial intellegence.
+            </p>
+            <p>
+              <a
+                href="https://github.com/TheCodingWizard-911/PythonMiniProject/tree/master/FlappyBirdAI"
+                class="project-link"
+                target="_blank"
+                ><i class="fab fa-github fa-lg"> View Code</i></a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-description has-margin-right">
+            <h2>Cross platform E-commerce mobile app</h2>
+            <p>
+              This is the project that I am currently working on. Using Flutter
+              to create this awesome E-commerce cross platform mobile app with
+              Firebase as the backend.
+            </p>
+            <p>
+              <a
+                href="https://github.com/TheCodingWizard-911/Veggiotic_World"
+                class="project-link"
+                target="_blank"
+                ><i class="fab fa-github fa-lg"> View Code</i></a
+              >
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="images/App.png" />
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-img has-margin-right">
+            <img src="images/calculator.png" />
+          </div>
+          <div class="project-description">
+            <h2>Scientific Calculator</h2>
+            <p>
+              This is a calculator which performs the most common arithmetic
+              operations as well as some complex functions like sine, cosine,
+              tangent, factorial, etc. Simple layout built using
+              <strong>QT creator</strong>, easy to understand for anyone.
+            </p>
+            <p>
+              <a
+                href="https://github.com/TheCodingWizard-911/Scientific-Calculator"
+                class="project-link"
+                target="_blank"
+                ><i class="fab fa-github fa-lg"> View Code</i></a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h2>You can reach me through my mail given below.</h2>
+        <p>I’ll try to get back to you ASAP! </p>
+        <div class="container">
+          <p>
+            <a href="mailto:ganeshs.gitte@gmail.com">
+              <i class="fas fa-envelope-open fa-lg"> </i>
+              ganeshs.gitte@gmail.com
+            </a>
+          </p>
+          <h2>You can follow me here.</h2>
+          <p>
+            <a href="https://github.com/TheCodingWizard-911" target="_blank">
+              <i class="fab fa-github fa-lg"> GitHub </i>
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.hackerrank.com/CodingWizard_911"
+              target="_blank"
+            >
+              <i class="fab fa-hackerrank fa-lg"> HackerRank </i>
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/ganesh-gitte-9101/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin fa-lg"> Linkedin </i>
+            </a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Link to javascript file -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
