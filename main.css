@@ -114,7 +114,7 @@ nav {
   );
 }
 
-.burger-menu-icon {
+.menu-icon {
   cursor: pointer;
   z-index: 999;
   position: fixed;
